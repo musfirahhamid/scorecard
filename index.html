@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ScoreCard</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Score Card</h1>
+        <div class="row">
+            <div class="col">
+                <h2>Home</h2>
+                <div class="bg-score">
+                    <p id="home-score" >0</p>
+                </div>
+                <div class="score">
+                    <button onclick="homeScore1()">+1</button>
+                    <button onclick="homeScore2()">+2</button>
+                    <button onclick="homeScore3()">+3</button>
+                </div>
+            </div>
+            <div class="col">
+                <h2>Guest</h2>
+                <div class="bg-score">
+                    <p id="guest-score">0</p>
+                </div>
+                <div class="score">
+                    <button onclick="guestScore1()">+1</button>
+                    <button onclick="guestScore2()">+2</button>
+                    <button onclick="guestScore3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <button id="new" onclick="newGame()">New Game</button>
+
+        <p id="footer">Connect with <a href="https://www.linkedin.com/in/frontendengineer/">Musfirah</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
